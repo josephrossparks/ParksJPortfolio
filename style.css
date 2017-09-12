@@ -1,0 +1,143 @@
+/*Home Page and Header Layout*/
+
+@font-face {
+    font-family: "bebasbold";
+    src: url('fonts/BebasNeue Bold.ttf');}
+
+body {
+    width: 100%;
+    margin: 0 auto;}
+
+.container, .homepage, .aboutme, #formwrap {
+    width: 960px;
+    margin: auto}
+
+.header {
+    background: rgb(120,120,120);
+    opacity: 0.95;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 70}
+
+.logo {
+    float:left;}
+
+.homepage, .aboutme, #formwrap {
+    position: relative;
+    top: 120px}
+
+.nav {float: right;}
+
+.btn{
+    font-family: Helvetica;
+    font-size: 12pt;
+    color: #888888;
+    background: white;
+    text-align: center;
+    width: 200px;}
+
+.button {text-align: center;}
+
+.btn:hover {background: #c5c5c5;}
+
+.background {
+    background: rgba(140,140,140,0.5);}
+
+/*Text Styles*/
+
+h1 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: bebasbold;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
+  font-size: 30pt;
+  color: white;}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: #314366;}
+
+h3 {
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  color: #314366;}
+
+p, blockquote, ol {
+  font-family:helvetica;
+  font-weight:lighter;
+  color: #6c6c6c;
+  line-height: 18pt;}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  margin-left: 30px;
+  padding-top: 15px;
+  letter-spacing: 0.1em;}
+
+li a {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-weight: 30;
+  text-decoration: none;
+  color: white;}
+
+ol li {
+  text-decoration: auto;
+  margin-left: 20px;
+  list-style-position: inside
+  }
+
+a:hover {
+  color: #d3d3d3;}
+
+blockquote {
+  font-style: italic;
+  position: relative;
+  margin-right: 2.0em}
+
+.welcome {margin-bottom: 30px;}
+
+.homeimages img {box-shadow: 0px 0px 20px #000000; border-radius: 30px;}
+
+/*Form Style*/
+
+#formwrap {
+    width: 600px;
+    margin: 0px auto;}
+
+fieldset{
+    border: none;}
+
+form {
+    width: 600px;
+    margin: 0px auto;}
+
+label{
+    display: block;
+    margin: 10px 0 5px 0;
+    font-family: helvetica, sans-serif;
+    color: #888888}
+
+input {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    margin: 10px 0 10px 0}
+
+textarea {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #888888;
+    border-radius: 5px;}
