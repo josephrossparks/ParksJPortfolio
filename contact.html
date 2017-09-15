@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body class="background">
+  <script src="script.js"></script>
     <div class="header">
       <div class="container">
         <div class="logo">
@@ -30,9 +31,15 @@
           <textarea name="Message"> </textarea>
         </fieldset>
         <fieldset>
-            <div class="button"><input class="btn" type="submit" value="Send Email"/><div>
+            <div class="button"><input class="btn" type="submit" value="Send Email"/></div>
         </fieldset>
       </form>
+        <h3 align=center>Let me give you a drag name!</h3>
+        <p align=center>While I respond to your email, type your name here...</p>
+        <input type="text" id="input"/>
+        <p align=center>This is your new drag name:</p>
+        <input type="text" id="output">
+        <div class="button"><button class="btn" onclick="myFunction()">Drag it Up</button></div>
     </div>
   </body>
 </html>
